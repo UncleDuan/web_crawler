@@ -8,14 +8,13 @@
 1.pip install selenium<br /> 
   并安装webdriver，提供了四个浏览器的，https://selenium-python.readthedocs.io/installation.html#drivers<br /> 
   这里面有一个selenium的小范例程序：<br /> 
-  from selenium import webdriver<br /> 
-
-  driver = webdriver.Chrome()<br /> 
-  driver.get('https://www.baidu.com')<br /> 
-
-  print(driver.title)<br /> 
-
-  driver.quit()<br /> 
+  ```python
+          from selenium import webdriver
+          driver = webdriver.Chrome()
+          driver.get('https://www.baidu.com')
+          print(driver.title)
+          driver.quit()
+  ```
   对于像我这种没用过selenium的很友善。<br /> 
   安装谷歌浏览器的ChromeDriver可能要翻墙<br /> 
 2.pip install pandas<br /> 
