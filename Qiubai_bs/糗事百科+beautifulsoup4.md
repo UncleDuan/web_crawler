@@ -1,6 +1,6 @@
-##爬取糗百并保存
+## 爬取糗百并保存
 [Beautifulsoup4 find_all函数](https://www.crummy.com/software/BeautifulSoup/bs4/doc.zh/#find-all)
-find_all( name , attrs , recursive , text , **kwargs )
+### find_all( name , attrs , recursive , text , **kwargs )
 * name 参数
     name 参数可以查找所有名字为 name 的tag,字符串对象会被自动忽略掉.
 * keyword 参数
