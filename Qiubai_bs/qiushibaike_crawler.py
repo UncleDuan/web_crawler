@@ -40,7 +40,7 @@ def craw(url):
         html = response.read()  #读取返回html源码
         getdata(html)
     except urllib.error.URLError as e:
-        if hasattr(e,"code"):
+        if hasattr(e,"Zhihu"):
             print(e.code)
         if hasattr(e,"reason"):
             print(e.reason)
